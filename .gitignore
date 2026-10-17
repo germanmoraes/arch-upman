@@ -1,0 +1,14 @@
+# Local build artifacts
+schemas/gschemas.compiled
+*.shell-extension.zip
+
+# Local backups and one-off patch scripts; keep them out of release archives/repository history.
+backup*/
+backups/
+*.backup-*
+*.bak-*
+patch-maintenance-inventory.py
+refine-maintenance.py
+fix-maintenance-execution.py
+format-maintenance.py
+fix-orphan-empty.py

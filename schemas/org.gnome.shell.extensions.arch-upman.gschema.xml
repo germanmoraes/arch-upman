@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.arch-upman" path="/org/gnome/shell/extensions/arch-upman/">
+    <key name="language" type="s"><default>'en'</default><summary>Interface language (system, en, or a locale catalog ID)</summary></key>
+    <key name="check-pacman" type="b"><default>true</default><summary>Check official repository packages</summary></key>
+    <key name="check-aur" type="b"><default>true</default><summary>Check AUR packages</summary></key>
+    <key name="check-flatpak" type="b"><default>true</default><summary>Check Flatpak updates</summary></key>
+    <key name="auto-check" type="b"><default>true</default><summary>Check for updates periodically</summary></key>
+    <key name="check-interval" type="i"><default>5</default><range min="1" max="60"/><summary>Update check interval in minutes</summary></key>
+    <key name="clean-orphans" type="b"><default>false</default><summary>Enable interactive cleanup of orphan packages</summary></key>
+    <key name="clean-pacman-cache" type="b"><default>false</default><summary>Enable interactive Pacman cache cleanup</summary></key>
+    <key name="clean-flatpak-unused" type="b"><default>false</default><summary>Enable interactive removal of unused Flatpak components</summary></key>
+    <key name="enable-panel-positioning" type="b"><default>false</default><summary>Enable custom panel positioning</summary></key>
+    <key name="panel-position" type="s"><default>'right'</default><summary>GNOME top panel region</summary></key>
+    <key name="panel-position-index" type="i"><default>0</default><range min="0" max="100"/><summary>Order within the selected panel region</summary></key>
+    <key name="icon-color-updates" type="s"><default>'#00BFFF'</default><summary>Icon color when updates are available</summary></key>
+    <key name="icon-color-no-updates" type="s"><default>'#999999'</default><summary>Icon color when no updates are available</summary></key>
+    <key name="icon-size" type="i"><default>16</default><range min="8" max="32"/><summary>Panel icon size in pixels</summary></key>
+    <key name="count-font-size" type="i"><default>12</default><range min="8" max="24"/><summary>Update count font size in pixels</summary></key>
+    <key name="count-font-color" type="s"><default>'#ffffff'</default><summary>Update count font color</summary></key>
+    <key name="terminal-command" type="s"><default>'kgx -- bash -lc {command}'</default><summary>Terminal command template containing {command}</summary></key>
+  </schema>
+</schemalist>

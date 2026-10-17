@@ -1,0 +1,21 @@
+.arch-upman-arch-glyph {
+    font-family: "Symbols Nerd Font";
+    font-size: 19px;
+    font-weight: normal;
+}
+.arch-upman-dialog-content { width: 560px; height: 560px; spacing: 8px; }
+.arch-upman-package-row, .arch-upman-reboot-row { padding: 6px 8px; border-radius: 6px; spacing: 2px; }
+.arch-upman-reboot-row { background-color: rgba(53, 132, 228, 0.18); border-left: 3px solid #3584e4; }
+.arch-upman-reboot-legend { color: #78aeed; font-weight: bold; }
+.arch-upman-update-count {
+    font-size: 0.85em;
+    font-weight: bold;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Compact, symmetric horizontal padding for the update capsule. */
+.panel-button.arch-upman-panel-button {
+    padding-left: 2px;
+    padding-right: 2px;
+}
