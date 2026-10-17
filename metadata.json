@@ -8,5 +8,6 @@
   ],
   "url": "https://github.com/germanmoraes/arch-upman",
   "gettext-domain": "arch-upman",
-  "settings-schema": "org.gnome.shell.extensions.arch-upman"
+  "settings-schema": "org.gnome.shell.extensions.arch-upman",
+  "license": "GPL-3.0-or-later"
 }

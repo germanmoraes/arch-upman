@@ -72,3 +72,11 @@ The initial Brazilian Portuguese catalog is `locale/pt_BR.json`. Contributions s
 - Restart recommendations are heuristic, not a guarantee that a restart is required.
 - Maintenance commands can remove packages or components; review the preview carefully and confirm only if appropriate.
 - All extension-authored interface messages and maintenance prompts use the English source strings and selectable translation catalog. External package-manager output is requested in English for predictable parsing.
+
+## License
+
+Arch UpMan is distributed under the **GNU General Public License, version 3 or (at your option) any later version**. The full license text is provided in [LICENSE](LICENSE).
+
+Copyright (C) 2026 Germano Fröhlich Moraes.
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. It is distributed in the hope that it will be useful, but **without any warranty**; without even the implied warranty of merchantability or fitness for a particular purpose. See the LICENSE file for details.
